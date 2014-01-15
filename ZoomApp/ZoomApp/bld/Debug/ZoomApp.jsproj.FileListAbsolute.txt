@@ -1,0 +1,13 @@
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bin\Debug\resources.pri
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bin\Debug\AppxManifest.xml
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bin\Debug\ZoomApp.build.appxrecipe
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\priconfig.xml.intermediate
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\layout.resfiles.intermediate
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\resources.resfiles.intermediate
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\pri.resfiles.intermediate
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\priconfig.xml
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\layout.resfiles
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\resources.resfiles
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\pri.resfiles
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\LanguageQualifiers.txt
+C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bld\Debug\ProjectArchitectures.txt

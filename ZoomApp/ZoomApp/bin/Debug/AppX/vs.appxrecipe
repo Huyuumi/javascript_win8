@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC1230274</Machine>
+    <WindowsUser>n1230274</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7039211F8AD2BAA2B33336C8A556B18FB34CFFF41ECB9B61A09D71815331C8A1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a391df82-6618-4280-b98c-f5191e972037_1.0.0.0_neutral__yh07dbp1g8ytj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a391df82-6618-4280-b98c-f5191e972037_yh07dbp1g8ytj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a391df82-6618-4280-b98c-f5191e972037</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=n1230274</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-15T01:01:34.752</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-01-15T01:01:33.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\images\Logo_lol.png">
+      <PackagePath>images\Logo_lol.png</PackagePath>
+      <Modified>2014-01-08T05:18:10.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-01-15T01:16:01.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\ZoomApp\ZoomApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-15T01:01:34.516</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
