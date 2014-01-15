@@ -1,0 +1,9 @@
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\resources.pri
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\AppxManifest.xml
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\java_cal.build.appxrecipe
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\priconfig.xml
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\layout.resfiles
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\resources.resfiles
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\pri.resfiles
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\LanguageQualifiers.txt
+C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bld\Debug\ProjectArchitectures.txt

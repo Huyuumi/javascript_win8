@@ -2,12 +2,12 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
 
   <Identity
-    Name="963bfd60-e388-4ae8-9f2a-fc49fe568835"
+    Name="f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95"
     Version="1.0.0.0"
     Publisher="CN=n1230274" />
 
   <Properties>
-    <DisplayName>kadai1_horiguchiseiya</DisplayName>
+    <DisplayName>java_cal</DisplayName>
     <PublisherDisplayName>n1230274</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -27,10 +27,10 @@
       StartPage="default.html">
 
       <VisualElements
-        DisplayName="kadai1_horiguchiseiya"
+        DisplayName="java_cal"
         Logo="images\logo.png"
         SmallLogo="images\smalllogo.png"
-        Description="kadai1_horiguchiseiya"
+        Description="java_cal"
         ForegroundText="light"
         BackgroundColor="#464646">
 

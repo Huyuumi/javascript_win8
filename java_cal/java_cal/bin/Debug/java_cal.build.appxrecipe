@@ -7,38 +7,41 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\default.html">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\ezreal.jpg">
+      <PackagePath>images\ezreal.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\js\default.js">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\css\default.css">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

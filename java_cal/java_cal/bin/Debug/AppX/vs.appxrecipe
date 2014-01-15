@@ -5,56 +5,60 @@
     <WindowsUser>n1230274</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>8597DA83795C2C33FE2551DBF577C0F85DA8A8D1E242BAF3A53B41B0E3F74F0A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>963bfd60-e388-4ae8-9f2a-fc49fe568835_1.0.0.0_neutral__yh07dbp1g8ytj</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>963bfd60-e388-4ae8-9f2a-fc49fe568835_yh07dbp1g8ytj!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>963bfd60-e388-4ae8-9f2a-fc49fe568835</RegisteredPackageID>
+    <RegisteredManifestChecksum>A714A00BDCA000241E23099148B67C35D73DEF87118555B169982989CCC5A40E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95_1.0.0.0_neutral__yh07dbp1g8ytj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95_yh07dbp1g8ytj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=n1230274</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-01-11T06:57:17.957</Modified>
+      <Modified>2014-01-12T09:56:48.651</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\default.html">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-01-11T06:55:49.779</Modified>
+      <Modified>2014-01-12T12:58:06.870</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\ezreal.jpg">
+      <PackagePath>images\ezreal.jpg</PackagePath>
+      <Modified>2014-01-11T12:10:23.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-27T16:25:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-27T16:25:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-27T16:25:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-27T16:25:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\js\default.js">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-01-11T07:37:05.997</Modified>
+      <Modified>2014-01-12T12:58:01.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\css\default.css">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-01-11T04:34:00.619</Modified>
+      <Modified>2014-01-12T12:58:08.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\kadai1_horiguchiseiya\kadai1_horiguchiseiya\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\java_cal\java_cal\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-01-11T06:57:17.629</Modified>
+      <Modified>2014-01-12T09:56:48.340</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

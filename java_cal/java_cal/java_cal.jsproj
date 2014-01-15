@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>963bfd60-e388-4ae8-9f2a-fc49fe568835</ProjectGuid>
+    <ProjectGuid>f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -47,13 +47,14 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>ja-JP</DefaultLanguage>
-    <PackageCertificateKeyFile>kadai1_horiguchiseiya_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>java_cal_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="default.html" />
+    <Content Include="images\ezreal.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />

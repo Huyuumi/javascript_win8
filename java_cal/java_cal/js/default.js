@@ -17,7 +17,7 @@
                 // TODO: このアプリケーションは中断状態から再度アクティブ化されました。
                 // ここでアプリケーションの状態を復元します。
             }
-            args.setPromise(WinJS.UI.processAll());
+            args.setPromise(WinJS.UI.processAll());        
             var displayBotton = document.getElementById('button');
             displayBotton.addEventListener("click", cal);
         }
@@ -31,48 +31,133 @@
         // 必要がある場合は、args.setPromise() を呼び出して
         // ください。
     };
+
+
     function cal() {
-        var getYearMonth = document.getElementById("textBox");
-        var getArray = getYearMonth.value.split("/");
-        var getYear = getArray[0].split("");
-        var weekTbl = new Array('日', '月', '火', '水', '木', '金', '土');
-        var monthTbl = new Array('31', '28', '31', '30', '31', '30', '31', '31', '30', '31', '30', '31');
+        var getYearMonth = document.getElementById("textBox"); //テキストボックスの中身を参照
+        var getArray = getYearMonth.value.split("/"); //'/'で月と年をわける
+        var weekTbl = new Array('日', '月', '火', '水', '木', '金', '土'); //曜日をセット
+        var monthTbl = new Array('31', '28', '31', '30', '31', '30', '31', '31', '30', '31', '30', '31'); //月をセット
         if (getArray[1] % 400 == 0 || (getArray[1] % 4 == 0 && getArray[1] % 100 != 0)) {
-            monthTbl[1] = 29;
+            monthTbl[1] = 29;　//うるう年なら２月を２９に
         }
-        var AB = getYear[0] * getYear[1];
-        var CD = getYear[2] * getYear[3];
-        var youbi = CD + Math.floor(CD / 4) + Math.floor(AB / 4) - 2 * AB + Math.floor(13(getArray[1] + 1) / 5);
-        document.write("<table border='1'>");
-        document.write("<tr>");
-        for (var i = 0; i < 7; i++) {
-            document.write("<td>");
-            document.write("<strong>", weekTbl[i], "</strong>");
-            document.write("</td>");
+        var first = new Date(parseInt(getArray[0]), parseInt(getArray[1] - 1), 1);
+        var youbi = first.getDay(); //指定された月の１日の曜日を取得
+        var TblLine = Math.ceil((youbi + parseInt(monthTbl[parseInt(getArray[1]) - 1])) / 7); //行を取得
+
+        //以下カレンダー表示部
+        var div = document.getElementById('cal');
+
+        var table = document.createElement('table');
+        table.setAttribute('id', 'table');
+        var tbody = document.createElement('tbody');
+
+        var tr = document.createElement('tr');
+
+        var td = document.createElement('td');
+
+        for (var i = 0; i < 7; i++) {　//曜日表示のループ
+            var th = document.createElement('th');
+            th.setAttribute('class','cells');
+            th.textContent = weekTbl[i];
+            tr.appendChild(th)
         }
-        document.write("</tr>");
-        for (var day = 1; day < monthTbl[getArray[1] - 1]; day++) {
-            document.write("<tr>");
-            for (day; day % 7 != 0; day++) {
-                document.write("<td>", day, "</td>");
-                if (day == monthTbl[getArray[1]-1]) {
+        tbody.appendChild(tr);
+        var day = 0; //日数を初期化
+        for (i = 0; i < TblLine; i++) { //日付表示のループ
+            var cnt = 0;
+            tr = document.createElement('tr');
+            tr.setAttribute('class','cells');
+            for (var d = 0; (d < youbi) && (day == 0) ; d++) {
+                td = document.createElement('td');
+                td.setAttribute('class','cells');
+                tr.appendChild(td);
+                cnt++;
+            }
+            for (day; day != monthTbl[getArray[1] - 1]; day++) {
+                td = document.createElement('td');
+                td.setAttribute('class','cells');
+                td.textContent = day + 1;
+                tr.appendChild(td);
+                cnt++;
+                if ((day + 1 + youbi) % 7 == 0) { //列が終わったらbreak
                     break;
                 }
             }
-            document.write("</tr>");
-            if (day == monthTbl[getArray[1] - 1]) {
+            tbody.appendChild(tr);
+            
+            if (day == monthTbl[getArray[1] - 1]) { //日数が指定月の最後まで進んでたらbreak
                 break;
             }
+            day++;
         }
-        document.write("</table>");
+        for (cnt; cnt < 7; cnt++) {　//余った空白セル表示のループ
+            td = document.createElement('td');
+            td.setAttribute('class', 'cells');
+            tr.appendChild(td)
+        }
+
+        table.appendChild(tbody);
+        div.appendChild(table); //divタグにセット
     }
+    //以下参考コードです。
+    //function ex() {
+
+
+    //    var a_data = new Array();
+
+    //    //配列の要素に連想配列をセット
+    //    a_data.push({ 'name': 'apple', 'price': 100 });
+    //    a_data.push({ 'name': 'orange', 'price': 200 });
+    //    a_data.push({ 'name': 'peach', 'price': 150 });
+
+    //    var div = document.getElementById('cal');
+
+    //    //テーブル要素作成
+    //    var table = document.createElement('table');
+    //    var tbody = document.createElement('tbody');
+
+    //    //テーブルの見出し行
+    //    var tr = document.createElement('tr');
+    //    var th1 = document.createElement('th');
+    //    var th2 = document.createElement('th');
+
+    //    th1.appendChild(document.createTextNode('name'));
+    //    th2.appendChild(document.createTextNode('price'));
+
+    //    tr.appendChild(th1);
+    //    tr.appendChild(th2);
+
+    //    tbody.appendChild(tr);
+
+    //    //テーブルのデータ行
+    //    for (var i = 0; i < a_data.length; i++) {
+
+    //        tr = document.createElement('tr');
+    //        var td1 = document.createElement('td');
+    //        var td2 = document.createElement('td');
+
+    //        td1.appendChild(document.createTextNode(a_data[i]["name"]));
+    //        td2.appendChild(document.createTextNode(a_data[i]["price"]));
+
+    //        tr.appendChild(td1);
+    //        tr.appendChild(td2);
+
+    //        tbody.appendChild(tr);
+    //    }
+
+    //    table.appendChild(tbody);
+
+    //    //class属性つけたいとき
+    //    if (document.documentElement.getAttribute("style") == document.documentElement.style) {
+    //        table.setAttribute("className", "test");
+    //    } else {
+    //        table.setAttribute("class", "test");
+    //    }
+
+    //    //DIV要素にテーブルをセット
+    //    div.appendChild(table);
+
+    //}
     app.start();
 })();
-
-//ABCD年E月F日とした場合
-//W=CD+[CD/4]+[AB/4]-2AB+[13(E+1)/5]+Fを求めます
-//そしてWを7で割った余りが曜日になります。
-//1234560で日月火水木金土となります。
-//
-//[]はガウス記号です。
-

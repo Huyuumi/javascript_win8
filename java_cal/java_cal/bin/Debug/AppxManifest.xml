@@ -7,9 +7,9 @@
 
     パッケージ マニフェスト ファイルの詳細については、http://go.microsoft.com/fwlink/?LinkID=241727 を参照してください
   -->
-  <Identity Name="963bfd60-e388-4ae8-9f2a-fc49fe568835" Version="1.0.0.0" Publisher="CN=n1230274" ProcessorArchitecture="neutral" />
+  <Identity Name="f4aaf8fa-b1f3-4a72-b9b6-4dd4ae7c6e95" Version="1.0.0.0" Publisher="CN=n1230274" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>kadai1_horiguchiseiya</DisplayName>
+    <DisplayName>java_cal</DisplayName>
     <PublisherDisplayName>n1230274</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="kadai1_horiguchiseiya" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="kadai1_horiguchiseiya" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="java_cal" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="java_cal" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
