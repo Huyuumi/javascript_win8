@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC1230274</Machine>
+    <WindowsUser>n1230274</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>4AA6356AC9C9A8A3235B422E3BB92974F2FCA590AE81538126735B726347D84F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>86a07fc8-6790-4f08-a133-2e676aa6dee5_1.0.0.0_neutral__yh07dbp1g8ytj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>86a07fc8-6790-4f08-a133-2e676aa6dee5_yh07dbp1g8ytj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>86a07fc8-6790-4f08-a133-2e676aa6dee5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=n1230274</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-15T00:19:55.594</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-01-15T00:19:54.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\20ILAT11.png">
+      <PackagePath>images\20ILAT11.png</PackagePath>
+      <Modified>2014-01-15T00:18:30.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-10T01:05:51.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\images\ezreal.jpg">
+      <PackagePath>images\ezreal.jpg</PackagePath>
+      <Modified>2014-01-08T06:22:04.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-01-15T00:33:47.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-01-10T00:48:36.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\tokei\tokei\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-15T00:19:55.317</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
