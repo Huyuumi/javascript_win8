@@ -20,6 +20,29 @@
             }
             args.setPromise(WinJS.UI.processAll());
             var canvas1 = document.getElementById("canvas1");
+
+            var black = document.getElementById("black");
+            var green = document.getElementById("green");
+            var white = document.getElementById("white");
+            var blue = document.getElementById("blue");
+            var red = document.getElementById("red");
+
+            red.addEventListener("click", function () {
+                penColor=colorList["red"];
+            });     
+            black.addEventListener("click", function () {
+                penColor=colorList["black"];
+            });
+            green.addEventListener("click", function () {
+                penColor=colorList["green"];
+            });
+            blue.addEventListener("click", function () {
+                penColor=colorList["blue"];
+            });
+            white.addEventListener("click", function () {
+                penColor = colorList["white"];
+            });
+
             canvas1.addEventListener("mousemove", draw, true);
             canvas1.addEventListener("mousedown", function (e) {
                 drawFlag = true;
@@ -45,24 +68,33 @@
     var drawFlag = false;
     var oldX = 0;
     var oldY = 0;
+    var colorList = {
+        "black": "rgba(0,0,0,1)",
+        "blue": "rgba(0,0,255,1)",
+        "red": "rgba(255,0,0,1)",
+        "green": "rgba(0,255,0,1)",
+        "white": "rgba(255,255,255,1)"
+    }
+    var penColor = colorList["black"];
 
 
+
+    // 描画処理
     function draw(e) {
         if (!drawFlag) return;
         var x = e.clientX;
         var y = e.clientY;
         var can = document.getElementById("canvas1");
         var context = can.getContext("2d");
-        context.strokeStyle = "rbga(255,0,0,1)";
+        context.strokeStyle = penColor;
         context.lineWidth = 1;
         context.beginPath();
         context.moveTo(oldX, oldY);
         context.lineTo(x, y);
         context.stroke();
-        context.closePath;
+        context.closePath();
         oldX = x;
         oldY = y;
-        
     }
 
 

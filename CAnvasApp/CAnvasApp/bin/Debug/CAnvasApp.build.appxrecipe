@@ -7,38 +7,38 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\default.html">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\js\default.js">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\css\default.css">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

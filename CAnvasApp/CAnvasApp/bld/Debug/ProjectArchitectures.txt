@@ -1,1 +1,1 @@
-C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\CAnvasApp.jsproj;neutral
+C:\Users\n1230274.STCN\javascript_win8\CAnvasApp\CAnvasApp\CAnvasApp.jsproj;neutral
