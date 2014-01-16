@@ -1,0 +1,9 @@
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\resources.pri
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\AppxManifest.xml
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\CAnvasApp.build.appxrecipe
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\priconfig.xml
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\layout.resfiles
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\resources.resfiles
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\pri.resfiles
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\LanguageQualifiers.txt
+C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bld\Debug\ProjectArchitectures.txt

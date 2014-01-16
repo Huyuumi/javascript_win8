@@ -1,0 +1,35 @@
+﻿body {
+}
+
+#canvas1 {
+    background-color: white;
+}
+
+#red {
+    background-color:red;
+    width: 30px;
+    height: 30px;
+}
+#green {
+    background-color:green;
+    width: 30px;
+    height: 30px;
+}
+#blue {
+    background-color:blue;
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

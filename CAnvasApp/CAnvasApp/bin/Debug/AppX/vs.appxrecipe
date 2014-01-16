@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC1230274</Machine>
+    <WindowsUser>n1230274</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>313979CDCF054E468BDBD59C28098350F961E94C7E9FF70F007610CA0210E082</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>17ee5a4c-47d9-4480-aac0-2fc63f709b6e_1.0.0.0_neutral__yh07dbp1g8ytj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>17ee5a4c-47d9-4480-aac0-2fc63f709b6e_yh07dbp1g8ytj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>17ee5a4c-47d9-4480-aac0-2fc63f709b6e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=n1230274</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-16T00:15:28.847</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-01-16T03:01:10.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-27T16:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-01-16T03:01:10.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-01-16T03:02:19.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\n1230274.STCN\Desktop\CAnvasApp\CAnvasApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-16T00:15:28.386</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
